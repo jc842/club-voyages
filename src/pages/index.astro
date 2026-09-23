@@ -1,0 +1,303 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../config/site.config';
+import ReviveSlot from '../components/ads/ReviveSlot.astro';
+
+// French Posts
+const frPosts = await getCollection('blog', ({ data }) => !data.draft && (!data.lang || data.lang === 'fr'));
+frPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const featuredPosts = frPosts.slice(0, 6);
+
+// English & Spanish counts
+const enPosts = await getCollection('blog', ({ data }) => !data.draft && data.lang === 'en');
+const esPosts = await getCollection('blog', ({ data }) => !data.draft && data.lang === 'es');
+
+const totalCount = frPosts.length + enPosts.length + esPosts.length;
+---
+
+<Layout title={`${siteConfig.name} — Carnet Privé de l'Évasion Mondiale & Séjours d'Exception`}>
+  <!-- Hero Section (Lexington Midnight Dark) -->
+  <section class="relative overflow-hidden pt-12 pb-20 sm:pt-20 sm:pb-28">
+    <!-- Ambient Radial Glows -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-indigo-600/20 via-purple-600/15 to-cyan-500/10 blur-[130px] rounded-full pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-900/90 border border-indigo-500/30 text-indigo-300 shadow-lg shadow-indigo-500/5 mb-8">
+        <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+        <span class="tracking-wide uppercase text-[11px]">Le Carnet Privé du Voyage & des Séjours d'Exception</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] mb-6">
+        Explorez le Monde avec <br class="hidden sm:inline" />
+        <span class="bg-gradient-to-r from-indigo-300 via-white to-cyan-300 bg-clip-text text-transparent">
+          Élégance & Distinction
+        </span>
+      </h1>
+
+      <p class="text-base sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
+        Itinéraires méticuleusement conçus de 48 heures à 14 jours, villas d'exception aux Antilles, escales méditerranéennes et adresses secrètes des plus grandes métropoles internationales.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-wrap justify-center items-center gap-4 mb-16">
+        <a href="/blog/" class="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/25 transition-all duration-200 hover:-translate-y-0.5">
+          Explorer les 47 carnets &rarr;
+        </a>
+        <a href="/en/" class="px-6 py-3.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-sm border border-slate-700/80 transition-all duration-200">
+          🇬🇧 English Guides ({enPosts.length})
+        </a>
+        <a href="/es/" class="px-6 py-3.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-sm border border-slate-700/80 transition-all duration-200">
+          🇪🇸 Guías en Español ({esPosts.length})
+        </a>
+      </div>
+
+      <!-- Key Stats Bar -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-slate-800/80 text-left sm:text-center">
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm">
+          <div class="text-2xl sm:text-3xl font-black text-white">{totalCount}</div>
+          <div class="text-xs text-slate-400 mt-1">Articles & Guides</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm">
+          <div class="text-2xl sm:text-3xl font-black text-indigo-400">15+</div>
+          <div class="text-xs text-slate-400 mt-1">Métropoles Mondiales</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm">
+          <div class="text-2xl sm:text-3xl font-black text-cyan-400">3</div>
+          <div class="text-xs text-slate-400 mt-1">Langues (FR / EN / ES)</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm">
+          <div class="text-2xl sm:text-3xl font-black text-emerald-400">100%</div>
+          <div class="text-xs text-slate-400 mt-1">Cookieless & RGPD</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multilingual Discovery Hub -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- FR Card -->
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-slate-900/80 to-slate-950 border border-slate-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-2xl">🇫🇷</span>
+            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-950/60 px-2.5 py-1 rounded-md border border-indigo-500/30">Édition Initiale</span>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-2">Carnets de Voyage & Antilles</h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Dossiers complets sur New York, Paris, Rome, les plus belles villas de Saint-François et les escapades en mer aux Caraïbes.
+          </p>
+        </div>
+        <a href="/blog/" class="inline-flex items-center text-xs font-semibold text-indigo-400 hover:text-indigo-300">
+          Consulter les 47 carnets &rarr;
+        </a>
+      </div>
+
+      <!-- EN Card -->
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-slate-900/80 to-slate-950 border border-slate-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-2xl">🇬🇧</span>
+            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-950/60 px-2.5 py-1 rounded-md border border-indigo-500/30">English Edition</span>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-2">Curated Escapes & Capitals</h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Handcrafted 3 to 14-day itineraries: Manhattan, London, Rome, Venice, French Caribbean luxury stays, and the Canadian Rockies.
+          </p>
+        </div>
+        <a href="/en/" class="inline-flex items-center text-xs font-semibold text-indigo-400 hover:text-indigo-300">
+          Explore 15 English guides &rarr;
+        </a>
+      </div>
+
+      <!-- ES Card -->
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-slate-900/80 to-slate-950 border border-slate-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-2xl">🇪🇸</span>
+            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-950/60 px-2.5 py-1 rounded-md border border-indigo-500/30">Edición en Español</span>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-2">Guías de Viaje Exclusivas</h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Rutas detalladas y consejos prácticos: Nueva York, París, Barcelona, Roma, villas caribeñas de prestigio y escapadas urbanas.
+          </p>
+        </div>
+        <a href="/es/" class="inline-flex items-center text-xs font-semibold text-indigo-400 hover:text-indigo-300">
+          Descubrir 15 guías en español &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lexington Bento Highlights: Univers Thématiques -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 border-b border-slate-800 pb-6">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Collections Thématiques</span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white mt-1">Les Pôles d'Évasion</h2>
+      </div>
+      <a href="/blog/" class="mt-4 sm:mt-0 text-sm font-semibold text-slate-400 hover:text-indigo-300 transition-colors">
+        Voir toute la collection &rarr;
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Bento 1: City Breaks -->
+      <div class="group relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/60 p-6 flex flex-col justify-between hover:border-indigo-500/50 transition-all duration-300">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-indigo-950/80 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-4 font-black">
+            01
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">City Breaks & Capitales</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            New York, Paris, Londres, Rome, Florence, Vienne, Barcelone : itinéraires optimisés de 48h à 7 jours.
+          </p>
+        </div>
+        <a href="/blog/" class="text-xs font-semibold text-indigo-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
+          Explorer la sélection &rarr;
+        </a>
+      </div>
+
+      <!-- Bento 2: Caraïbes -->
+      <div class="group relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/60 p-6 flex flex-col justify-between hover:border-cyan-500/50 transition-all duration-300">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-cyan-950/80 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-4 font-black">
+            02
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Caraïbes & Îles Privées</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Villas de prestige avec piscine à Saint-François, criques de Petite-Terre et douceur de vivre antillaise.
+          </p>
+        </div>
+        <a href="/blog/" class="text-xs font-semibold text-cyan-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
+          Explorer la sélection &rarr;
+        </a>
+      </div>
+
+      <!-- Bento 3: Grandes Évasions -->
+      <div class="group relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/60 p-6 flex flex-col justify-between hover:border-purple-500/50 transition-all duration-300">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-purple-950/80 border border-purple-500/30 flex items-center justify-center text-purple-400 mb-4 font-black">
+            03
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Grandes Évasions</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Rocheuses canadiennes, Séoul avant-gardiste, temples de Chiang Mai et panoramas de Rio de Janeiro.
+          </p>
+        </div>
+        <a href="/blog/" class="text-xs font-semibold text-purple-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
+          Explorer la sélection &rarr;
+        </a>
+      </div>
+
+      <!-- Bento 4: Méditerranée -->
+      <div class="group relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/60 p-6 flex flex-col justify-between hover:border-amber-500/50 transition-all duration-300">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-amber-950/80 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 font-black">
+            04
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Méditerranée & Soleil</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Faraglioni de Capri, remparts de Dubrovnik, Cyclades de Naxos et palais mauresques de Grenade.
+          </p>
+        </div>
+        <a href="/blog/" class="text-xs font-semibold text-amber-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
+          Explorer la sélection &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Derniers Carnets Publiés -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="flex items-center justify-between border-b border-slate-800 pb-6 mb-10">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">À la une</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-white mt-1">Dernières Publications</h2>
+      </div>
+      <a href="/blog/" class="text-sm font-semibold text-indigo-400 hover:text-indigo-300 transition-colors">
+        Consulter tout &rarr;
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {featuredPosts.map(post => (
+        <article class="group bg-slate-900/60 rounded-2xl border border-slate-800/80 hover:border-indigo-500/50 overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/10 flex flex-col">
+          {post.data.heroImage && (
+            <a href={`/blog/${post.id}/`} class="aspect-[16/10] overflow-hidden bg-slate-800 block relative">
+              <img
+                src={post.data.heroImage}
+                alt={post.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+              <span class="absolute top-3 left-3 text-[11px] font-bold uppercase tracking-wider text-indigo-300 bg-slate-950/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-indigo-500/30">
+                {post.data.category}
+              </span>
+            </a>
+          )}
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors line-clamp-2 mb-3">
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-400 line-clamp-3 mb-6 flex-grow leading-relaxed">
+              {post.data.description}
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-slate-800/60 text-xs text-slate-500">
+              <span>{new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+              <a href={`/blog/${post.id}/`} class="inline-flex items-center text-indigo-400 font-semibold group-hover:translate-x-1 transition-transform">
+                Lire le carnet &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Ad In-Content Slot -->
+    {siteConfig.revive?.zones?.inContent && (
+      <div class="my-16 flex justify-center">
+        <ReviveSlot format={siteConfig.revive.zones.inContent.format} zoneId={siteConfig.revive.zones.inContent.zoneId} />
+      </div>
+    )}
+  </section>
+
+  <!-- VIP Concierge / Newsletter Club Box -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="relative overflow-hidden rounded-3xl bg-gradient-to-b from-slate-900 to-black border border-slate-800 p-8 sm:p-14 text-center">
+      <div class="absolute top-0 right-1/4 w-80 h-80 bg-indigo-500/10 blur-[100px] rounded-full pointer-events-none"></div>
+
+      <span class="inline-block text-xs font-bold uppercase tracking-widest text-indigo-400 bg-indigo-950/60 border border-indigo-500/30 px-3 py-1 rounded-full mb-4">
+        Le Cercle Privé
+      </span>
+      <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight mb-4">
+        Rejoignez les Initiés de Club Voyages
+      </h2>
+      <p class="text-sm sm:text-base text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">
+        Recevez en avant-première nos carnets d'adresses confidentielles, les ouvertures d'hôtels d'exception et les meilleurs conseils d'évasion.
+      </p>
+
+      <div class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+        <input
+          type="email"
+          placeholder="Votre adresse email"
+          class="flex-grow px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+          disabled
+        />
+        <button
+          class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm transition-colors cursor-pointer"
+          type="button"
+        >
+          S'inscrire
+        </button>
+      </div>
+      <p class="text-[11px] text-slate-600 mt-3">
+        100% sans spam. Désinscription immédiate en un clic. Respect total de votre vie privée.
+      </p>
+    </div>
+  </section>
+</Layout>

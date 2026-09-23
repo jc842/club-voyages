@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { siteConfig } from '../config/site.config';
+---
+<Layout title={`Politique de Confidentialité | ${siteConfig.name}`}>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="bg-slate-900/60 border border-slate-800 rounded-3xl p-8 sm:p-12 text-slate-300 text-sm leading-relaxed">
+      <h1 class="text-2xl sm:text-4xl font-black text-white mb-6">Politique de Confidentialité</h1>
+      <p class="mb-4">Ce site respecte scrupuleusement la vie privée de ses visiteurs et applique une politique stricte sans traceurs intrusifs.</p>
+      <p class="mb-4"><strong class="text-white">Absence de cookies tiers :</strong> Aucun cookie de traçage publicitaire ou profilage commercial n'est déposé sur votre terminal.</p>
+      <p><strong class="text-white">Mesure d'audience respectueuse (CNIL) :</strong> Les données statistiques anonymisées sont traitées via une instance MatomoTag Manager cookieless, dispensée de recueil de consentement selon les recommandations de la CNIL.</p>
+    </div>
+  </div>
+</Layout>
