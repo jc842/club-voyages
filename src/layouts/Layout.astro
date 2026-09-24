@@ -93,6 +93,8 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'indigo'] || colorThe
   <meta property="twitter:description" content={description} />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- Matomo Tag Manager (Privacy-First / Cookieless) -->
+  <Matomo />
 </head>
 
 <body class={`min-h-screen flex flex-col ${theme.body} pb-24 md:pb-0`}>
@@ -158,8 +160,6 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'indigo'] || colorThe
   </footer>
 
   <!-- Matomo Tracking -->
-  {siteConfig.matomo?.url && siteConfig.matomo?.siteId && (
-    <Matomo />
-  )}
+  
 </body>
 </html>
