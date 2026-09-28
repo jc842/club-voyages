@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/florence-guide-hero.jpg"
 title: "Découverte de Florence en 72 heures : Votre Guide Idéal pour un Premier Séjour"
 description: "Préparez-vous à explorer **Florence**, la perle de la **Toscane**, en seulement **72 heures**. Que vous soyez amateur d'art, passionné d'histoire ou simplement ..."
 pubDate: "2024-11-03 21:07:49"

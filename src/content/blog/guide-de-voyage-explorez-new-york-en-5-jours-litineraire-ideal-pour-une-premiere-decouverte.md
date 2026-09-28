@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/new-york-5-jours-hero.jpg"
 title: "Guide de Voyage : Explorez New York en 5 Jours - L'Itinéraire Idéal pour une Première Découverte"
 description: "New York, la ville qui ne dort jamais, regorge de **merveilles à découvrir** dans ses rues vibrantes. Que vous soyez amateur d'art, passionné d'architecture ou ..."
 pubDate: "2025-01-20 08:26:30"

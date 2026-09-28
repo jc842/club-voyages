@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/rio-de-janeiro-quartiers-hero.jpg"
 title: "Guide des quartiers de Rio de Janeiro : Où se loger pour un séjour inoubliable ?"
 description: "Rio de Janeiro, ville à la beauté saisissante, offre une multitude de quartiers uniques qui sauront répondre à toutes vos envies. Que vous soyez attiré par l'an..."
 pubDate: "2025-01-24 16:08:44"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/seattle-quartiers-hero.jpg"
 title: "Les meilleurs quartiers de Seattle pour un séjour mémorable"
 description: "Lorsque l'on prévoit un séjour à **Seattle**, il est essentiel de sélectionner le bon quartier pour profiter pleinement de l'expérience. La ville, riche en cult..."
 pubDate: "2025-01-31 18:21:44"

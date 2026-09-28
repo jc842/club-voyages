@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/new-york-incontournables-hero.jpg"
 title: "Explorez New York : Les 57 incontournables à découvrir en 2025 | Votre Guide Complet"
 description: "Si vous avez toujours rêvé d'explorer **New York**, 2025 est l'année idéale pour le faire! Cette ville emblématique, surnommée la **« Big Apple »**, regorge d'a..."
 pubDate: "2025-01-19 22:14:07"

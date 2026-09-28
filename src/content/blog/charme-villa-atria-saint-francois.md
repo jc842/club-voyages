@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/charme-villa-atria-saint-francois-hero.jpg"
 title: "Découvrez le charme de la Villa Atria à louer à Saint-François"
 description: "Amidst the captivating tropical landscapes of Guadeloupe, the Villa Atria emerges as an exquisite representation of luxury rentals and island retreats in Saint-..."
 pubDate: "2025-06-27 05:34:51"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/grenade-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour un séjour agréable à Grenade"
 description: "Grenade, joyau d'Andalousie, est une ville riche en histoire et en culture, offrant une multitude de quartiers uniques qui séduisent tous les types de voyageurs..."
 pubDate: "2025-02-06 18:04:24"

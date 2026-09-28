@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/venise-48h-hero.jpg"
 title: "Escapade de 48 heures à Venise : Le guide parfait pour un week-end inoubliable avec astuces pratiques"
 description: "Vous rêvez d'une **escapade de 48 heures à Venise**? Bienvenue dans ce guide pratique conçu pour vous aider à maximiser votre expérience dans cette ville légend..."
 pubDate: "2025-01-19 08:14:24"

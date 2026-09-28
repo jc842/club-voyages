@@ -241,16 +241,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://club-voyages.com/blog/f0-9f-8c-8d-guide-destination-club-voyages/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://club-voyages.com/blog/f0-9f-8c-8d-idee-voyage-antilles-club-voyages/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://club-voyages.com/blog/guide-de-voyage-explorez-new-york-en-5-jours-litineraire-ideal-pour-une-premiere-decouverte/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -266,7 +256,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://club-voyages.com/blog/guide-destination-club-voyages/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://club-voyages.com/blog/guide-sejour-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://club-voyages.com/blog/idee-voyage-antilles-club-voyages/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

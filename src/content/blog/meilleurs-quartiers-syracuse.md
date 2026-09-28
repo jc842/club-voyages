@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/syracuse-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour se loger à Syracuse"
 description: "Vous envisagez un voyage à Syracuse et vous vous demandez où dormir pour profiter au maximum de votre séjour ? Ne cherchez plus ! Cette magnifique ville sicilie..."
 pubDate: "2025-08-17 09:06:14"

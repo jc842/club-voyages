@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/rhodes-hotels-hero.jpg"
 title: "Les meilleures options d'hébergement à Rhodes : guide des hôtels incontournables"
 description: "Lorsque l'on envisage de découvrir l'île **de Rhodes**, l'un des aspects les plus importants à considérer est indéniablement le choix de l'**hébergement**. Que ..."
 pubDate: "2024-12-04 16:40:38"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/bars-clubs-soirees-antilles-hero.jpg"
 title: "Découvrez les lieux incontournables pour sortir en soirée aux Antilles : bars et clubs sélectionnés en Guadeloupe, Martinique et Saint-Martin"
 description: "Experience the vibrant nightlife of the Caribbean with a spotlight on the must-visit bars and clubs across Guadeloupe, Martinique, and Saint-Martin. These islan..."
 pubDate: "2025-06-13 05:24:11"

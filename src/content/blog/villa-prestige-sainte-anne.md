@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/villa-prestige-sainte-anne-hero.jpg"
 title: "Louez une Villa de Prestige à Sainte-Anne : Confort et Luxe Assurés"
 description: "The allure of Sainte-Anne as a premier destination in the Caribbean continues to captivate discerning travelers seeking both relaxation and luxury. Nestled on t..."
 pubDate: "2025-06-15 05:04:43"

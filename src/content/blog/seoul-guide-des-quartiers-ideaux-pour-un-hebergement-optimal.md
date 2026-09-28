@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/seoul-quartiers-hero.jpg"
 title: "Séoul : Guide des quartiers idéaux pour un hébergement optimal"
 description: "Plongé au cœur de la fascinante métropole de **Séoul**, chaque visiteur cherche le quartier idéal pour son séjour. Que vous souhaitiez explorer des rues animées..."
 pubDate: "2025-01-18 21:04:54"

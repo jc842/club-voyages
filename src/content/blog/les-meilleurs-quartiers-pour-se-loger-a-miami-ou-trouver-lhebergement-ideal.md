@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/miami-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour se loger à Miami : où trouver l'hébergement idéal ?"
 description: "Vous prévoyez un séjour à Miami et vous vous demandez où vous pouvez dénicher l'hébergement idéal? La ville, rayonnante de culture et de dynamisme, offre une mu..."
 pubDate: "2024-11-03 21:04:01"

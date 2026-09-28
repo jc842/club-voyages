@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/vienne-incontournables-hero.jpg"
 title: "Découvrez Vienne : Les 25 incontournables à explorer en 1, 2, 3 ou 5 jours en 2025"
 description: "En 2025, Vienne s'impose comme une **destination fascinante** à explorer. Que vous disposiez d'une seule journée ou de plusieurs pour découvrir cette ville rich..."
 pubDate: "2025-03-03 08:05:44"

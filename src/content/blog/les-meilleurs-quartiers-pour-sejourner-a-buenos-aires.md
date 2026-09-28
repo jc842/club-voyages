@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/buenos-aires-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour séjourner à Buenos Aires"
 description: "Visiter **Buenos Aires** sans connaître les meilleurs quartiers pour séjourner est une erreur que vous ne voulez pas commettre. Que vous recherchiez l’animation..."
 pubDate: "2025-04-03 19:19:52"

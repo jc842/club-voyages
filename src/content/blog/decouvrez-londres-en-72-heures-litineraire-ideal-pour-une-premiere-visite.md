@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/londres-72h-hero.jpg"
 title: "Découvrez Londres en 72 heures : L'itinéraire Idéal pour une Première Visite"
 description: "Prêt pour une aventure inoubliable? **Découvrez Londres en 72 heures** avec un **itinéraire idéal** conçu spécialement pour votre première visite. Cette magnifi..."
 pubDate: "2024-11-03 21:05:42"

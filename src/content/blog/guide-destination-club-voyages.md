@@ -1,10 +1,10 @@
 ---
 title: "Guide des Plus Belles Destinations du Monde : Le Carnet Club Voyages"
-description: "#  Guide Destination Club Voyages : Votre Passeport pour les Antilles de Rêve  Imaginez-vous les pieds dans le sable blanc des Caraïbes, un cocktail à la main..."
+description: "Guide Destination Club Voyages : Votre Passeport pour les Antilles de Rêve Imaginez-vous les pieds dans le sable blanc des Caraïbes, un cocktail à la main..."
 pubDate: "2026-05-30 13:41:56"
 category: "Destinations"
 lang: "fr"
-heroImage: "/images/f0-9f-8c-8d-guide-destination-club-voyages-hero.webp"
+heroImage: "/images/guide-destination-club-voyages-hero.webp"
 tags: []
 draft: false
 ---

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/chicago-quartiers-hero.jpg"
 title: "Les meilleurs quartiers où séjourner à Chicago"
 description: "Chicago, une métropole vibrante aux multiples facettes, regorge de quartiers fascinants offrant chacun une ambiance unique. Que vous soyez amateur d’art, passio..."
 pubDate: "2025-04-06 13:13:56"

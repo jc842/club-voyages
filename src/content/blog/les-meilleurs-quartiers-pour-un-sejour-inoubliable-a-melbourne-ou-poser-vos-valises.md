@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/melbourne-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour un séjour inoubliable à Melbourne : où poser vos valises ?"
 description: "Lorsque vous planifiez un voyage à **Melbourne**, choisir le bon quartier pour votre séjour est essentiel pour vivre une expérience inoubliable. Cette métropole..."
 pubDate: "2024-11-17 12:52:14"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/manchester-quartiers-hero.jpg"
 title: "Guide des quartiers où séjourner à Manchester : quel choix pour un hébergement idéal ?"
 description: "Manchester, une ville vibrante et dynamique, offre une multitude de quartiers uniques où séjourner. Que vous soyez en quête d'une expérience urbaine animée, d'u..."
 pubDate: "2024-11-26 22:18:58"

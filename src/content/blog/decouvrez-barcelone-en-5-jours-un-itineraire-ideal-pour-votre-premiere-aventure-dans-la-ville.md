@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/barcelone-5-jours-hero.jpg"
 title: "Découvrez Barcelone en 5 jours : Un itinéraire idéal pour votre première aventure dans la ville"
 description: "Barcelone, véritable joyau de la **méditerranée**, vous attend pour une **première aventure inoubliable**. Cette ville dynamique et colorée, où se mêlent **art*..."
 pubDate: "2024-11-03 21:06:54"

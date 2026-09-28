@@ -1,0 +1,99 @@
+{
+  "siteName": "Club Voyages",
+  "domain": "club-voyages.com",
+  "niche": "Voyages Privés, Adhésion VIP, Hôtellerie d'Exception & Escapades Caribéennes",
+  "theme": "Lexington Midnight Dark",
+  "resume_existant": "77 articles sur les city breaks, resorts de luxe et escapades insulaires. Fort historique de partenariats hôteliers (Booking, palaces).",
+  "pages_a_pousser": [
+    {
+      "url": "/blog/guide-resorts-palaces-5-etoiles-caraibes-prestige/",
+      "titre": "Les 12 Plus Beaux Palaces et Hôtels 5 Étoiles des Caraïbes : Luxe Intime et Plages Privées",
+      "objectif_seo": "Leader 'palace caraibes 5 etoiles' et 'hotel de luxe st barth anguilla'",
+      "priorite": "P1"
+    },
+    {
+      "url": "/blog/croisiere-catamaran-prive-grenadines-itineraire-vip/",
+      "titre": "Croisière en Catamaran Privé aux Grenadines : L'Itinéraire Secret de 10 Jours d'un Skipper VIP",
+      "objectif_seo": "Capter les demandes 'croisiere catamaran grenadines luxe'",
+      "priorite": "P1"
+    }
+  ],
+  "clusters": [
+    {
+      "nom": "Hôtellerie Ultra-Luxe & Suites Signatures",
+      "slug": "palaces-resorts-luxe",
+      "page_pilier": "/blog/guide-resorts-palaces-5-etoiles-caraibes-prestige/",
+      "description": "Eden Rock, Cheval Blanc St-Barth, Belmond Cap Juluca, Sandy Lane Barbade.",
+      "articles_a_publier": [
+        {
+          "titre": "Cheval Blanc St-Barth Isle de France : immersion dans le seul Palace officiel des Caraïbes",
+          "mot_cle": "cheval blanc st barth avis",
+          "intention": "Revue Palace",
+          "type": "Revue Hôtelière",
+          "mots_cles_secondaires": [
+            "suite flamands cheval blanc",
+            "spa guerlain st barth",
+            "tarif nuit cheval blanc st barth"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-resorts-palaces-5-etoiles-caraibes-prestige/",
+            "transverse": "eden-rock-st-jean-luxe-iconique"
+          }
+        },
+        {
+          "titre": "Belmond La Samanna à Saint-Martin : le refuge discret de Baie Longue entre sable blanc et falaises",
+          "mot_cle": "belmond la samanna saint martin",
+          "intention": "Inspiration Séjour",
+          "type": "Revue Hôtelière",
+          "mots_cles_secondaires": [
+            "villa privee la samanna",
+            "restaurant gastronomique baie longue",
+            "meilleur hotel de luxe sxm"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-resorts-palaces-5-etoiles-caraibes-prestige/",
+            "transverse": "cheval-blanc-st-barth-avis"
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Yachting & Croisières Privées d'Exception",
+      "slug": "yachting-croisieres-privees",
+      "page_pilier": "/blog/croisiere-catamaran-prive-grenadines-itineraire-vip/",
+      "description": "Charter avec équipage, catamarans Lagoon/Sunreef, mouillages secrets de Tobago Cays.",
+      "articles_a_publier": [
+        {
+          "titre": "Tobago Cays en catamaran privé : nager avec les raies et homards grillés sur la plage déserte",
+          "mot_cle": "tobago cays catamaran croisiere",
+          "intention": "Expérience Rêve",
+          "type": "Récit d'Escales",
+          "mots_cles_secondaires": [
+            "mouillage mayreau petit tabac",
+            "parc marin tobago cays regles",
+            "skipper prive grenadines"
+          ],
+          "maillage": {
+            "montant": "/blog/croisiere-catamaran-prive-grenadines-itineraire-vip/",
+            "transverse": "louer-un-catamaran-avec-chef-caraibes"
+          }
+        },
+        {
+          "titre": "Louer un catamaran avec chef privé aux Antilles : ce qui est réellement inclus dans l'APA",
+          "mot_cle": "location catamaran avec chef caraibes",
+          "intention": "Budget & Logistique VIP",
+          "type": "Guide Pratique Achat",
+          "mots_cles_secondaires": [
+            "apa yacht charter explication",
+            "menu gastronomique en mer antilles",
+            "tarif croisiere tout compris"
+          ],
+          "maillage": {
+            "montant": "/blog/croisiere-catamaran-prive-grenadines-itineraire-vip/",
+            "transverse": "tobago-cays-en-catamaran-prive"
+          }
+        }
+      ]
+    }
+  ]
+}

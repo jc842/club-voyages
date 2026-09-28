@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/rome-72h-hero.jpg"
 title: "Découvrez Rome en 72 Heures : Guide Idéal pour Votre Première Exploration"
 description: "Prendre le temps de **découvrir Rome**, c'est s'offrir un voyage au cœur de l'histoire, de la culture et de la gastronomie italienne. Si vous n'avez que **72 he..."
 pubDate: "2024-11-03 21:04:38"

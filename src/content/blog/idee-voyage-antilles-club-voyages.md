@@ -1,10 +1,10 @@
 ---
 title: "Idées de Séjours d'Exception aux Antilles : Îles, Lagons et Hôtels de Luxe"
-description: "#  Idée voyage Antilles — Club Voyages : Votre évasion tropicale clé en main  Imaginez-vous réveiller au son des vagues caressant une plage de sable blanc imm..."
+description: "Idée voyage Antilles — Club Voyages : Votre évasion tropicale clé en main Imaginez-vous réveiller au son des vagues caressant une plage de sable blanc imm..."
 pubDate: "2026-05-05 21:27:35"
 category: "Caraïbes & Îles"
 lang: "fr"
-heroImage: "/images/f0-9f-8c-8d-idee-voyage-antilles-club-voyages-hero.jpg"
+heroImage: "/images/idee-voyage-antilles-club-voyages-hero.jpg"
 tags: []
 draft: false
 ---

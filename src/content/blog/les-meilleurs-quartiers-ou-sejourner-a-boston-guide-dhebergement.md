@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/boston-quartiers-hero.jpg"
 title: "Les meilleurs quartiers où séjourner à Boston : guide d'hébergement"
 description: "Vous prévoyez un voyage à **Boston** et vous vous demandez où vous loger pour profiter au mieux de votre séjour ? Choisir le bon quartier peut transformer votre..."
 pubDate: "2025-02-14 20:42:54"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/villa-luxe-piscine-saint-francois-hero.jpg"
 title: "Séjournez dans une villa haut de gamme avec piscine à Saint-François grâce à Ibaïa Immobilier"
 description: "Saint-François, a jewel on the Guadeloupe archipelago, has in recent years emerged as a premier destination for travelers seeking both serenity and luxury. Know..."
 pubDate: "2025-06-19 22:57:03"

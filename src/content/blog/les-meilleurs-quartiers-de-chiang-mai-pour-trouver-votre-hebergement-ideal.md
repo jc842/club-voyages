@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/chiang-mai-quartiers-hero.jpg"
 title: "Les Meilleurs Quartiers de Chiang Mai pour Trouver Votre Hébergement Idéal"
 description: "Chiang Mai, véritable joyau du nord de la **Thaïlande**, attire les voyageurs du monde entier grâce à ses paysages enchanteurs, sa riche histoire et sa culture ..."
 pubDate: "2024-11-05 14:02:45"

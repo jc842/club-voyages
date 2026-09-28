@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/capri-villages-hero.jpg"
 title: "Les Meilleurs Villages de Capri pour Un Séjour Inoubliable"
 description: "Capri, cette célèbre île italienne aux paysages enchanteurs et à l'eau turquoise, est un véritable trésor de charme et d'élégance. Au-delà de ses monuments embl..."
 pubDate: "2024-12-02 18:22:23"

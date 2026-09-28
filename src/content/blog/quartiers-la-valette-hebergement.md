@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-valette-quartiers-hero.jpg"
 title: "Guide des Quartiers de La Valette : Où Trouver le Meilleur Hébergement ?"
 description: "La Valette, la **capitale historique de Malte**, regorge de trésors architecturaux et culturels qui émerveilleront tous les voyageurs. Mais un élément essentiel..."
 pubDate: "2025-08-29 15:01:20"

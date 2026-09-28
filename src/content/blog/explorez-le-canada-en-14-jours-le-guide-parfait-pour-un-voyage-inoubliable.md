@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/canada-14-jours-hero.jpg"
 title: "Explorez le Canada en 14 jours : le guide parfait pour un voyage inoubliable!"
 description: "Préparez-vous à vivre une aventure extraordinaire en découvrant le **Canada** en seulement **14 jours**. Ce vaste pays est un véritable kaléidoscope de paysages..."
 pubDate: "2025-01-18 22:46:37"

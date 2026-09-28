@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/explorer-barcelone-hero.jpg"
 title: "Explorer Barcelone : Mes 25 indispensables à voir et à faire"
 description: "Barcelone, la **capitale de la Catalogne**, est une ville aux mille facettes qui ne demande qu'à être explorée. Que vous soyez passionné d'**architecture**, d'*..."
 pubDate: "2025-01-20 22:36:08"

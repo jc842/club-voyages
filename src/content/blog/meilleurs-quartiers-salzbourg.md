@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/salzbourg-quartiers-hero.jpg"
 title: "Les meilleurs quartiers pour se loger à Salzbourg"
 description: "Bienvenue à Salzbourg, la cité magique de Mozart et des paysages à couper le souffle ! Si vous vous demandez où **dormir** dans cette magnifique ville autrichie..."
 pubDate: "2025-08-16 17:34:13"
